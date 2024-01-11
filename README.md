@@ -1,10 +1,10 @@
 #Documentação do Projeto de Página Web da Igreja Batista Antioquia
 
-##Visão Geral
+#Visão Geral
 
 Este projeto consiste em duas plataformas web para o site da Igreja Batista Antioquia. A primeira plataforma é uma página simples que inclui as páginas Home, About Us, Contato, Calendário e Programas da Igreja. A segunda plataforma é uma página com autenticação para administradores poderem adicionar e editar as páginas.
 
-Arquitetura
+##Arquitetura
 
 O projeto é composto pelos seguintes componentes:
 
@@ -15,16 +15,16 @@ Código
 
 O código do projeto está escrito em C# e usa o framework ASP.NET Core. A Web API usa o padrão RESTful para fornecer acesso às informações das páginas. O front-end simples usa HTML, CSS e JavaScript para visualizar as páginas. O front-end com autenticação usa Angular para fornecer uma interface de usuário mais sofisticada.
 
-Cores
+##Cores
 
 As cores usadas no projeto são as seguintes:
 
-Cor primária: #FF0000
-Cor de destaque: #00FF00
+Cor primária: #7b1536
+Cor de destaque: #182737
 Cor de fundo: #FFFFFF
 Essas cores são usadas em todo o projeto, incluindo o logotipo, o menu principal e os componentes.
 
-API RESTful
+##API RESTful
 
 A Web API fornece as seguintes operações CRUD para as informações das páginas:
 
@@ -32,7 +32,8 @@ GET: Obtém uma página específica.
 POST: Cria uma nova página.
 PUT: Atualiza uma página existente.
 DELETE: Exclui uma página.
-Parâmetros
+
+##Parâmetros
 
 Os parâmetros das operações CRUD são os seguintes:
 
